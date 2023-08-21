@@ -1,5 +1,13 @@
+
 {
-  "scripts": {
+ "name": "@personal/my-jest-tests",
+ "private": "true",
+ "license": "MIT",
+ "scripts": {
+    "build": "babel src -d lib",
     "test": "jest"
+  },
+"devDependencies": {
+    "jest": "^29.6.3"
   }
 }
